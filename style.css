@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+li span:nth-child(odd)
+{
+    @apply bg-yellow-500 rounded-[100%] w-[15%] py-[3%] text-sm text-white text-center font-semibold md:text-4xl md:py-[4%] shadow
+}
+li span:nth-child(even)
+{
+    @apply bg-white border-2 p-[2%] border-yellow-500 text-[.6rem] md:text-xl md:p-[3%] w-[90%] rounded-full shadow
+}
+li{
+    @apply flex items-center gap-2 my-2
+}
+
